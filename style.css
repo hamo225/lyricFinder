@@ -94,17 +94,19 @@ ul.songs {
   padding: 0;
 }
 
-ul.songs.li {
+ul.songs li {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 10px 0;
+  /* background-color: aqua; */
 }
 
 .container {
   margin: 30px auto;
   max-width: 100%;
   width: 500px;
+  /* background-color: aquamarine; */
 }
 
 .container h2 {
